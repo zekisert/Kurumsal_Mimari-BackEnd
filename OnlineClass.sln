@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{1B6BD3AC-AC95-426C-A041-7A15C3A43310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{79239789-424E-4F41-B520-4B62B04A5B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{D0850A6D-C3FF-4D06-825A-7519F3C0DF1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{583999D6-3E27-45CC-8584-1A7EA5F55981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebUI", "MvcWebUI\MvcWebUI.csproj", "{09B83283-2045-4543-927E-DCEE86F273DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWebUI.Tests", "MvcWebUI.Tests\MvcWebUI.Tests.csproj", "{CD391134-145C-41AF-A411-CCE6DC7C6F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Tests", "DataAccess.Tests\DataAccess.Tests.csproj", "{3A470A02-4607-48F7-B5B5-D741ECA6A559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Tests", "Business.Tests\Business.Tests.csproj", "{124C3EFB-7EF3-4813-8C1E-0DB3C169106F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{5EBD3753-5BD8-4360-A036-C8CA17F2C6D8}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WcfService", "WcfService", "{B79DE376-D2D9-488A-A89D-48012E0F9092}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52182"
+		Debug.AspNetCompiler.PhysicalPath = "WcfService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52182\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52182"
+		Release.AspNetCompiler.PhysicalPath = "WcfService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52182\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52182"
+		SlnRelativePath = "WcfService\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B6BD3AC-AC95-426C-A041-7A15C3A43310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B6BD3AC-AC95-426C-A041-7A15C3A43310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B6BD3AC-AC95-426C-A041-7A15C3A43310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B6BD3AC-AC95-426C-A041-7A15C3A43310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79239789-424E-4F41-B520-4B62B04A5B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79239789-424E-4F41-B520-4B62B04A5B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79239789-424E-4F41-B520-4B62B04A5B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79239789-424E-4F41-B520-4B62B04A5B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0850A6D-C3FF-4D06-825A-7519F3C0DF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0850A6D-C3FF-4D06-825A-7519F3C0DF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0850A6D-C3FF-4D06-825A-7519F3C0DF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0850A6D-C3FF-4D06-825A-7519F3C0DF1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583999D6-3E27-45CC-8584-1A7EA5F55981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583999D6-3E27-45CC-8584-1A7EA5F55981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583999D6-3E27-45CC-8584-1A7EA5F55981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583999D6-3E27-45CC-8584-1A7EA5F55981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B83283-2045-4543-927E-DCEE86F273DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B83283-2045-4543-927E-DCEE86F273DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B83283-2045-4543-927E-DCEE86F273DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B83283-2045-4543-927E-DCEE86F273DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD391134-145C-41AF-A411-CCE6DC7C6F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD391134-145C-41AF-A411-CCE6DC7C6F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD391134-145C-41AF-A411-CCE6DC7C6F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD391134-145C-41AF-A411-CCE6DC7C6F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A470A02-4607-48F7-B5B5-D741ECA6A559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A470A02-4607-48F7-B5B5-D741ECA6A559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A470A02-4607-48F7-B5B5-D741ECA6A559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A470A02-4607-48F7-B5B5-D741ECA6A559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124C3EFB-7EF3-4813-8C1E-0DB3C169106F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124C3EFB-7EF3-4813-8C1E-0DB3C169106F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124C3EFB-7EF3-4813-8C1E-0DB3C169106F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124C3EFB-7EF3-4813-8C1E-0DB3C169106F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBD3753-5BD8-4360-A036-C8CA17F2C6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBD3753-5BD8-4360-A036-C8CA17F2C6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBD3753-5BD8-4360-A036-C8CA17F2C6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBD3753-5BD8-4360-A036-C8CA17F2C6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79DE376-D2D9-488A-A89D-48012E0F9092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DE376-D2D9-488A-A89D-48012E0F9092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79DE376-D2D9-488A-A89D-48012E0F9092}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DE376-D2D9-488A-A89D-48012E0F9092}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0FDA74E-643D-4014-8A45-CBC4A9A42E98}
+	EndGlobalSection
+EndGlobal
